@@ -126,13 +126,17 @@ body {
 }
 .main {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: column;
 }
 .size {
   box-sizing: border-box;
   max-width: 95%;
   margin: 5px;
+}
+.mediaFlex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 .cv {
   background-color: rgba(255, 255, 255, 0.8);
