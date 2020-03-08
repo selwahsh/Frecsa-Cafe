@@ -125,10 +125,14 @@ body {
   width: 100%;
 }
 .main {
-  flex-grow: 1;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.size {
+  box-sizing: border-box;
+  max-width: 95%;
+  margin: 5px;
 }
 .cv {
   background-color: rgba(255, 255, 255, 0.8);
@@ -166,11 +170,6 @@ h6 {
   color: rgb(77, 77, 77);
 }
 
-.flex {
-  display: flex;
-  flex-direction: column;
-}
-
 .menu {
   background-color: rgba(255, 255, 255, 0.8);
   color: black;
@@ -197,16 +196,6 @@ h6 {
   margin: 20px;
 }
 
-.mediaFlex {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.size {
-  width: 100%;
-  margin: 5px;
-}
 .map {
   margin: 10px auto;
   width: 90%;
